@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is the backend of PetApp who is like a social network about pets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-guzman/PetApp.git"
+  },
+  "author": "Kevin Guzman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevin-guzman/PetApp/issues"
+  },
+  "homepage": "https://github.com/kevin-guzman/PetApp#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.8"
+  }
+}
